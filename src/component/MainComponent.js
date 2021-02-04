@@ -1,20 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import TodoList from "./TodoList";
 
-class MainComponent extends Component {
+const MainComponent = () => {
 
-    constructor(props) {
-        super(props)
-        this.state = {};
-
-    }
-
-    render() {
-        return (
-
-            <div>Hello</div>
-        )
-
-    }
+    return (
+        <Fragment>
+            <TodoList />
+        </Fragment>
+    )
 
 }
 
